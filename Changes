@@ -1,4 +1,6 @@
 Revision history for Dist-Zilla-Plugin-Test-EOF
 
 {{$NEXT}}
+
+0.01  2014-09-06 13:18:20 CEST
         - Initial release
