@@ -1,6 +1,7 @@
 Revision history for Dist-Zilla-Plugin-Test-EOF
 
 {{$NEXT}}
+    - Missing dependency
 
 0.01  2014-09-06 13:18:20 CEST
-        - Initial release
+    - Initial release

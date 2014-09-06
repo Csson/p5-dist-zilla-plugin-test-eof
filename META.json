@@ -36,6 +36,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Test::EOF" : "0.04",
             "perl" : "5.008005"
          }
       },
