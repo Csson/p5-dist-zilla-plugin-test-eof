@@ -1,6 +1,7 @@
 Revision history for Dist-Zilla-Plugin-Test-EOF
 
 {{$NEXT}}
+    - Added check in test for Test::EOF (thanks harleypig!)
 
 0.03  2014-09-18 21:10:43 CEST
     - Fix missing prereqs.
