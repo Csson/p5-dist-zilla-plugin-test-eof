@@ -34,6 +34,10 @@ Default: `0`
 
 If true, sets both `minimum_newlines` and `maximum_newlines` to `1`. This option has precedence.
 
+# SEE ALSO
+
+[Dist::Zilla::Plugin::Test::EOL](https://metacpan.org/pod/Dist::Zilla::Plugin::Test::EOL)
+
 # AUTHOR
 
 Erik Carlsson <info@code301.com>
@@ -46,5 +50,3 @@ Copyright 2014- Erik Carlsson
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-# SEE ALSO
