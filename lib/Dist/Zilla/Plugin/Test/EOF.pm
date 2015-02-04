@@ -9,6 +9,7 @@ use Data::Section { installer => method_installer }, '-setup';
 use namespace::autoclean;
 
 # VERSION
+# ABSTRACT: Check that all files in the projects end correctly
 
 with 'Dist::Zilla::Role::FileGatherer',
      'Dist::Zilla::Role::TextTemplate',
@@ -88,10 +89,6 @@ __PACKAGE__->meta->make_immutable;
 
 =encoding utf-8
 
-=head1 NAME
-
-Dist::Zilla::Plugin::Test::EOF - Check that all files in the projects end correctly
-
 =head1 SYNOPSIS
 
   [Test::EOF]
@@ -127,19 +124,6 @@ If true, sets both C<minimum_newlines> and C<maximum_newlines> to C<1>. This opt
 =head1 SEE ALSO
 
 L<Dist::Zilla::Plugin::Test::EOL>
-
-=head1 AUTHOR
-
-Erik Carlsson E<lt>info@code301.comE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2014- Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut
 

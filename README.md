@@ -2,6 +2,10 @@
 
 Dist::Zilla::Plugin::Test::EOF - Check that all files in the projects end correctly
 
+# VERSION
+
+Version 0.0501, released 2015-02-04.
+
 # SYNOPSIS
 
     [Test::EOF]
@@ -38,15 +42,21 @@ If true, sets both `minimum_newlines` and `maximum_newlines` to `1`. This option
 
 [Dist::Zilla::Plugin::Test::EOL](https://metacpan.org/pod/Dist::Zilla::Plugin::Test::EOL)
 
+# SOURCE
+
+[https://github.com/Csson/p5-dist-zilla-plugin-test-eof](https://github.com/Csson/p5-dist-zilla-plugin-test-eof)
+
+# HOMEPAGE
+
+[https://metacpan.org/release/Dist-Zilla-Plugin-Test-EOF](https://metacpan.org/release/Dist-Zilla-Plugin-Test-EOF)
+
 # AUTHOR
 
 Erik Carlsson <info@code301.com>
 
-# COPYRIGHT
+# COPYRIGHT AND LICENSE
 
-Copyright 2014- Erik Carlsson
+This software is copyright (c) 2015 by Erik Carlsson <info@code301.com>.
 
-# LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
