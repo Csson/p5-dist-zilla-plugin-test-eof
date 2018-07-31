@@ -10,7 +10,7 @@ use namespace::autoclean;
 
 # AUTHORITY
 # ABSTRACT: Check that all files in the projects end correctly
-our $VERSION = '0.0600';
+our $VERSION = '0.0601';
 
 with 'Dist::Zilla::Role::FileGatherer',
      'Dist::Zilla::Role::TextTemplate',
