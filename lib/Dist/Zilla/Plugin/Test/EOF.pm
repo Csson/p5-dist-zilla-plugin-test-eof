@@ -8,8 +8,9 @@ use Sub::Exporter::ForMethods 'method_installer';
 use Data::Section { installer => method_installer }, '-setup';
 use namespace::autoclean;
 
-# VERSION
+# AUTHORITY
 # ABSTRACT: Check that all files in the projects end correctly
+our $VERSION = '0.0600';
 
 with 'Dist::Zilla::Role::FileGatherer',
      'Dist::Zilla::Role::TextTemplate',
